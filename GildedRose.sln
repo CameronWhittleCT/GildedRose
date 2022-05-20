@@ -1,9 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Tests", "src\GildedRose.Tests\GildedRose.Tests.csproj", "{CD4715A2-532E-4C74-BC40-36EE64F61FCA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F2E879A9-7F1C-4C34-AB0D-2662F9815046} = {F2E879A9-7F1C-4C34-AB0D-2662F9815046}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{21A00AD6-7CA9-4991-98A7-0E9BD6BDFF32}"
 	ProjectSection(SolutionItems) = preProject
@@ -43,5 +46,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA326BCD-A368-4EC4-8FEC-26397B3C5DC6}
 	EndGlobalSection
 EndGlobal
